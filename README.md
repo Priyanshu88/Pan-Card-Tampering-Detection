@@ -12,7 +12,7 @@ The aim of this project is to build and compare the performance of different mac
 
 <!-- Badges -->
 
-<a href="https://priyanshu88-diabestes-prediction-streamlit-app-main-5komds.streamlit.app/" target="_blank">![](https://img.shields.io/website-up-down-green-red/http/monip.org.svg)</a>
+<a href="https://priyanshu88-pan-card-tampering-detection-streamlit--main-3q5mga.streamlit.app/" target="_blank">![](https://img.shields.io/website-up-down-green-red/http/monip.org.svg)</a>
 ![](https://img.shields.io/badge/Maintained-Yes-indigo)
 ![](https://img.shields.io/github/forks/Priyanshu88/Pan-Card-Tampering-Detection.svg)
 ![](https://img.shields.io/github/stars/Priyanshu88/Pan-Card-Tampering-Detection.svg)
@@ -21,7 +21,7 @@ The aim of this project is to build and compare the performance of different mac
   
  
  <h4>
-    <a href="https://priyanshu88-diabestes-prediction-streamlit-app-main-5komds.streamlit.app/">View Demo</a>
+    <a href="https://priyanshu88-pan-card-tampering-detection-streamlit--main-3q5mga.streamlit.app/">View Demo</a>
   <span> · </span>
     <a href="https://github.com/Priyanshu88/Pan-Card-Tampering-Detection/blob/master/README.md">Documentation</a>
   <span> · </span>
@@ -95,11 +95,11 @@ The dataset used in this project is the Pima Indians Diabetes Dataset, which can
 Clone the repository and install the required dependencies using the following commands:
 
 ```bash
-git clone https://github.com/Priyanshu88/Diabetes-Prediction.git
+git clone https://github.com/Priyanshu88/Pan-Card-Tampering-Detection.git
 ```
 
 ```bash
-cd Diabetes-Prediction
+cd Pan-Card-Tampering-Detection
 ```
 
 
@@ -133,13 +133,13 @@ In this project, we compared the accuracy of five different machine learning mod
 
 ## :triangular_flag_on_post: Deployment
 
-Checkout the deployment repository [`here`](https://github.com/Priyanshu88/Diabestes-Prediction-Streamlit-App).
+Checkout the deployment repository [`here`](https://github.com/Priyanshu88/Pan-Card-Tampering-Detection-Streamlit-App).
 
 
 
 ## :balance_scale: License
 
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/Priyanshu88/Diabetes-Prediction/blob/main/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/Priyanshu88/Pan-Card-Tampering-Detection/blob/main/LICENSE) file for details.
 
 
 
@@ -149,7 +149,7 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 
 Your Name - [@twitter_handle](https://twitter.com/Priyans75729802?s=09) - 2040020@sliet.ac.in
 
-Project Link: [https://github.com/Priyanshu88/Diabetes-Prediction.git](https://github.com/Priyanshu88/Diabetes-Prediction.git)
+Project Link: [https://github.com/Priyanshu88/Pan-Card-Tampering-Detection.git](https://github.com/Priyanshu88/Pan-Card-Tampering-Detection.git)
 <hr />
 <br />
 <div align="center">Don't forget to leave a star ⭐️</div>
