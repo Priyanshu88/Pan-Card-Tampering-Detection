@@ -6,7 +6,8 @@
   <p>
 
 An image processing tampering detection model using OpenCV to detect whether the given id is valid or not. For this project, the Parmanent Account Number has been taken but it can be used in different organizations for the verification of their ids.
-The aim of this project is to build and compare the performance of different machine learning models - K-Nearest Neighbors, Logistic Regression, Decision Tree, Random Forest, Support Vector Machine - to accurately predict the presence of diabetes in patients.
+
+The aim of this project is to utilize the computer vision applications in the fake identity detection.
   </p>
   
 
@@ -38,7 +39,7 @@ The aim of this project is to build and compare the performance of different mac
 
 ## :notebook_with_decorative_cover: Table of Contents
 
-- [Dataset](#signal_strength-dataset)
+- [Image](#signal_strength-image)
 - [Dependencies](#toolbox-dependecies)
 - [Installation](#gear-installation)
 - [Usage](#play_or_pause_button-usage)
@@ -50,44 +51,27 @@ The aim of this project is to build and compare the performance of different mac
 
 
 
-## :signal_strength: Dataset
+## :signal_strength: Image
 
-The dataset used in this project is the Pima Indians Diabetes Dataset, which can be found here. The dataset consists of 768 samples with 8 features, including the target variable, indicating the presence of diabetes. The dataset can be found on [`Kaggle`](https://www.kaggle.com/datasets/mathchi/diabetes-data-set). It includes following health criteria:
+This project has a wide dataset scope but for the reference of example we have worked on Permanant Account Number issued for indians to verify their identity. The reference image looks like below:
 
-- Pregnancies: Number of times pregnant
-- Glucose: Plasma glucose concentration a 2 hours in an oral glucose tolerance test
-- BloodPressure: Diastolic blood pressure (mm Hg)
-- SkinThickness: Triceps skin fold thickness (mm)
-- Insulin: 2-Hour serum insulin (mu U/ml)
-- BMI: Body mass index (weight in kg/(height in m)^2)
-- DiabetesPedigreeFunction: Diabetes pedigree function
-- Age: Age (years)
-- Outcome: Class variable (0 or 1)
-
-### Details
-- Number of Instances: 768
-- Number of Attributes: 8 plus class
-- Missing Attribute Values: Yes
-- Class Distribution: (class value 1 is interpreted as "tested positive for diabetes")
-
-
+<div align='center'>
+<img  src='https://user-images.githubusercontent.com/86107841/236691772-cefaee43-31fc-4f72-85b9-7d9611be3971.png'/>
+</div>
 
 ## :toolbox: Dependecies
 
 `python 3.8.3`
 
-`pandas`
+`sk.image`
 
-`numpy`
+`imutils`
 
-`sklearn`
+`cv2`
 
-`matplotlib`
+`PIL`
 
-`seaborn`
-
-`pickle`
-
+`requests`
 
 
 ## :gear: Installation
@@ -106,20 +90,13 @@ cd Pan-Card-Tampering-Detection
 
 ## :play_or_pause_button: Usage
 
-The Jupyter notebook Diabetes Prediction.ipynb contains the code for loading and preprocessing the dataset, as well as implementing and evaluating the KNN, Logistic Regression, Random Forest, Support Vector Machine and Decision Tree models. To run the notebook, simply open it in Jupyter and run each cell in order.
+The Jupyter notebook Pan_Card_Tampering_Detection.ipynb contains the code for loading and preprocessing the dataset, as well as implementing and evaluating the tampered as well as original image. To run the notebook, simply open it in Jupyter or Google Colab and run each cell in order.
 <br/>
 ## :rocket: Results
 
 <div align='center'>
 
-| Model                                             | Accuracy |
-|---------------------------------------------------|----------|
-| K-Nearest Neighbour                               | 79.22%    |
-| Logistic Regression                               | 81.82%    |
-| Random Forest                                     | 79.22%    |
-| Support Vector Machine                            | 83.12%    |
-| Decision Tree                                     | 81.82%    |
-| Hypertuning - GridSearchCV on Logistic Regression | 83.12%    |
+Structural Similarity Index (SSIM) between the tampered and original image is 31.67%.
 
 </div>
 
@@ -127,8 +104,7 @@ The Jupyter notebook Diabetes Prediction.ipynb contains the code for loading and
 
 ## :construction: Conclusion
 
-In this project, we compared the accuracy of five different machine learning models as well as hypertuning parameters for predicting diabetes based on various health criteria. We found that Support Vector Machine was the most accurate model, with an accuracy of 83.12%. The above results also tells that Logistic Regression and Decision Tree are also performing good and hypertuing on Logistic Regression increases its accuracy around 2%. This project could be further improved by testing additional models and/or including additional health criteria in the dataset.
-
+In this project, we understood the application of Structural Similarity Index in computer vision for detecting fake id's and shown the contours and threshold on the tampered and original image, also verfied the images with gray scaling. This project could be further applied to tackle the id's large industry dataset for making a tool to verify the employees id.
 
 
 ## :triangular_flag_on_post: Deployment
